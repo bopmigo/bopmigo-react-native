@@ -1,0 +1,58 @@
+{
+  "name": "bopmigo-react-native",
+  "version": "0.1.0",
+  "description": "Hear from the people using your React Native or Expo app, in their own words, and reply to them.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "react-native": "src/index.tsx",
+  "source": "src/index.tsx",
+  "files": [
+    "lib",
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "feedback",
+    "bug report",
+    "user feedback",
+    "in-app messaging"
+  ],
+  "homepage": "https://bopmigo.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bopmigo/bopmigo-react-native.git"
+  },
+  "license": "MIT",
+  "author": "Bopmigo <support@bopmigo.com>",
+  "peerDependencies": {
+    "@react-native-async-storage/async-storage": ">=1.19",
+    "react": ">=18",
+    "react-native": ">=0.72",
+    "react-native-view-shot": ">=3.6"
+  },
+  "peerDependenciesMeta": {
+    "@react-native-async-storage/async-storage": {
+      "optional": true
+    },
+    "react-native-view-shot": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "react": "^19.3.1",
+    "react-native": "^0.81.6",
+    "typescript": "^5.9.3"
+  }
+}

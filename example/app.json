@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Daybook",
+    "slug": "daybook-bopmigo-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bopmigo.example.daybook"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.bopmigo.example.daybook"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "daybook",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}

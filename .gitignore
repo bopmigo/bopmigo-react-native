@@ -1,0 +1,7 @@
+node_modules/
+/lib/
+.expo/
+example/.env
+*.log
+example/.claude/
+example/AGENTS.md
